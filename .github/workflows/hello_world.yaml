@@ -1,14 +1,12 @@
-
 name: Hello World Workflow
 
-
 on:
-  pull_request: 
+  pull_request:
     branches: [main]
     types: [closed]
   push:
     branches: [main]
-    types: [closed]
+  workflow_dispatch:
 
 jobs:
   simple_hello_world:
