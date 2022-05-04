@@ -14,3 +14,9 @@ jobs:
     steps:
       - run: |
           echo "JESUS CHRIST IS LORD!"
+
+  second_hello:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: |
+          echo "JESUS IS MY LORD AND GOD"
